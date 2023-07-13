@@ -2,7 +2,7 @@ using ScenesLoaderSystem;
 using System.Collections;
 using UnityEngine;
 
-namespace Runtime.Init
+namespace ScenesLoaderSystem
 {
     public class AfterStartSceneLoader : MonoBehaviour
     {
