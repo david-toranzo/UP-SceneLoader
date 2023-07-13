@@ -6,12 +6,13 @@ namespace ScenesLoaderSystem
 {
     public class ScenesLoaderInstaller : MonoInstaller<ISceneLoader>
     {
-        [Header("Data scene")]
+        [Header("References")]
         [SerializeField] private SceneDataSO _loadingScreenData;
+        [SerializeField] private SceneDataSO _firstOpenSceneDataSo;
 
         protected override ISceneLoader GetDataType()
         {
-            ScenesLoader scenesLoader = new ScenesLoader(_loadingScreenData.SceneData);
+            ScenesLoader scenesLoader = new ScenesLoader(_loadingScreenData.SceneData, _firstOpenSceneDataSo.SceneData);
 
             ServiceLocator.Instance.Register<ISceneLoader>(scenesLoader);
 

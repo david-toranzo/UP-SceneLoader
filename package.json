@@ -1,15 +1,13 @@
 {
   "name": "scene-loader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "displayName": "UP-SceneLoader",
-  "description": "",
   "unity": "2020.3",
   "unityRelease": "0b5",
   "documentationUrl": "",
   "changelogUrl": "",
   "licensesUrl": "",
-  "keywords": [
-  ],
+  "keywords": [],
   "author": {
     "name": "",
     "email": "",
@@ -17,12 +15,11 @@
   },
   "type": "tool",
   "hideInEditor": false,
-  "samples": 
-[
-	{
-		"displayName": "Samples",
-		"description": "",
-		"path": "Samples~/"
-	}
-]
+  "samples": [
+    {
+      "displayName": "Samples",
+      "description": "",
+      "path": "Samples~/"
+    }
+  ]
 }

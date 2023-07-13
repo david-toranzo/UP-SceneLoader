@@ -1,4 +1,3 @@
-using System;
 using Patterns.ServiceLocator;
 using UnityEngine;
 
